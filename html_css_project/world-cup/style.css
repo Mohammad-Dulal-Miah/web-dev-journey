@@ -1,0 +1,39 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+
+    height: 646px;
+    width: 100%;
+    background-color: #161616;
+
+}
+.banner-info{
+
+   display: flex;
+
+}
+
+.left-banner-info{
+
+   flex: 3fr;
+}
+
+.right-banner-image{
+    flex: 1fr;
+    width:100%;
+}
+
+.banner-title{
+
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.banner-text{
+
+    color: #FFFFFF;
+}

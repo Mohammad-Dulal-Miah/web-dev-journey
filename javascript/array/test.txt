@@ -1,0 +1,13 @@
+How to declare a array ?
+
+==> const array = new Array();
+
+1. length --> it returns total numbers/ elements number.
+2. push --> add value in last index
+3. unshift --> add value in the first index
+4. pop --> remove at the end
+5. shift --> remove at the first
+6. indexOf --> find out the elements index
+7. lastIndexOf --> 
+8. includes() --> if value is find --> return true else false
+

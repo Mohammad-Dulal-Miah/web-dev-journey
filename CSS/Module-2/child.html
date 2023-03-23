@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        li{
+            margin: 20px;
+        }
+        
+        li:nth-child(2n+1){
+            color:red;
+        }
+
+        li::after{
+            content: 'I am from Dhaka';
+        }
+
+        li::before{
+            content: 'I am also from Bangladesh';
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <p>lorem10</p>
+        </li>
+        <li>
+            <p>lorem10</p>
+        </li>
+        <li>
+            <p>lorem10</p>
+        </li>
+        <li>
+            <p>lorem10</p>
+        </li>
+        <li>
+            <p>lorem10</p>
+        </li>
+    </ul>
+</body>
+</html>

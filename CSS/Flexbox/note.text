@@ -1,0 +1,16 @@
+
+
+-------This is use for parent class--------
+
+display --> flex;
+flex-direction
+flex-basis --> for width
+justify-content --> horizontally
+align-items ---> vertically
+
+
+--------This is use for child class------
+
+
+flex -->(1,2,3) in child --> how many position gets
+order --> div 

@@ -1,0 +1,10 @@
+1. static (default)
+2. relative
+3. absolute
+4. fixed
+
+
+and 2,3,4 --> apply
+-------------------
+top, left, right , bottom
+

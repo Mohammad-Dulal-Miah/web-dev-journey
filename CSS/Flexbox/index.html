@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box</title>
+
+    <style>
+
+        /* justify-content --> :horizontal
+        align-items : :vertical */
+
+        .container{
+
+            display: flex;
+            align-items: flex-start;
+            height: 800px;
+            flex-direction: row;
+
+        }
+        .container div{
+
+            padding: 20px;
+            flex-basis: 30%;
+        }
+
+        .container .child-1{
+            background-color: brown;
+            flex: 3;
+            order: 3;
+        }
+
+        .container .child-2{
+            background-color: aqua;
+            flex: 1;
+            order: 2;
+
+        }
+
+        .container .child-3{
+            background-color: blue;
+            flex: 1;
+            order: 1;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="child-1">
+        <h2>Box-1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+          voluptatem harum mollitia eligendi, odio autem officiis tenetur
+          excepturi id facere?
+        </p>
+      </div>
+      <div class="child-2">
+        <h2>Box-2</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates
+          fugiat dolores consequatur nostrum fuga error laboriosam? Reiciendis
+          mollitia aliquam nisi!
+        </p>
+      </div>
+      <div class="child-3">
+        <h2>Box-3</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum corrupti,
+          voluptas soluta ab iusto eligendi vero ipsam libero aliquid
+          asperiores!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+---- 4 Pseudo class ----
+
+1. :link
+2. :active
+3. :hover
+4. :visited
+
+we can use this 4 pseudo class in anchor tag to interactive our design.
+
+---- transition in button is important----

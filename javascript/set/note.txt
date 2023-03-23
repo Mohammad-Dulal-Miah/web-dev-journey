@@ -1,0 +1,7 @@
+new Set()
+add
+delete
+has
+
+forEach
+size

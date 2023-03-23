@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style>
+        .grid-container{
+            background-color: indianred;
+            padding: 20px;
+            display: grid;
+            /* grid-template-columns: auto auto auto;
+            grid-template-rows: 100px 100px 100px;
+            /* grid-column-gap: 20px;
+            grid-row-gap: 30px; */
+            /* grid-gap: 30px;
+            align-items: center; */ 
+
+            grid-template-areas: 
+            'header header header header header header'
+            'menu main main main right right'
+            'menu footer footer footer footer footer'
+
+            ;
+        }
+
+        .grid-items{
+            background-color: wheat;
+            border: 1px solid black;
+            padding: 20px;
+            font-size: 40px;
+            text-align: center;
+        }
+
+        #grid-1{
+
+            grid-area: header;
+        }
+
+        #grid-2{
+            
+            grid-area: menu;
+        }
+
+        #grid-3{
+            
+            grid-area: main;
+        }
+
+        #grid-4{
+            
+            grid-row: right;
+        }
+
+        #grid-5{
+            
+            grid-area: footer;
+        }
+
+
+
+        
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-items" id="grid-1">1</div>
+        <div class="grid-items" id="grid-2">2</div>
+        <div class="grid-items" id="grid-3">3</div>
+        <div class="grid-items" id="grid-4">4</div>
+        <div class="grid-items" id="grid-5">5</div>
+    </div>
+</body>
+</html>

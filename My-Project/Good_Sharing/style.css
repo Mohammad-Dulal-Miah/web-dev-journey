@@ -1,0 +1,33 @@
+body {
+  font-family: 'Noto Sans Lepcha', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+.top-section{
+
+    display: flex;
+    background-color: yellowgreen;
+    height: 400px;
+}
+.item {
+	flex-basis: 50%;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+
+.top-section-info{
+
+    
+}
+.top-section-info .web-title{
+    color:white;
+    font-size: 1em;
+}
+
+
+
+.top-section-image img{
+    width:100%;
+    justify-content:end;
+    height: auto;
+}
