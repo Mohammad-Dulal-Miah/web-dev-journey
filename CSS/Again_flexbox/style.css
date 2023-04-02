@@ -1,0 +1,9 @@
+.container{display:flex;justify-content: space-around;}
+
+.container div{padding:20px;flex-basis: 25%;}
+
+.container .child1{background-color: aqua;;order:3}
+
+.container .child2{background-color: azure;}
+
+.container .child3{background-color: blueviolet;order:1}
