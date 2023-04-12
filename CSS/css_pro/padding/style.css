@@ -1,0 +1,13 @@
+.dulal{
+
+    width:400px;
+    height:400px;
+    background-color: black;
+    padding: 100px 200px;
+}
+
+.dulal p{
+    color:white;
+}
+/* padding two: (top-bottom) (left-right) */
+/* padding three : top (left-right) bottom */

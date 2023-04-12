@@ -1,0 +1,12 @@
+table,th,td{
+    border: 1px solid green;
+    border-collapse: collapse;
+}
+
+table{
+    width:100%;
+}
+
+th,td{
+    text-align: center;
+}

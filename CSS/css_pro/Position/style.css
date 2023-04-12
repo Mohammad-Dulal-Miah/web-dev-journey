@@ -1,0 +1,28 @@
+#parent{
+
+    border: 1px solid yellowgreen;
+    padding: 20px;
+    width: 50%;
+    background-color: aquamarine;
+}
+
+#one{
+
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    position: absolute;
+    top: 50px;
+}
+
+#two{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#three{
+    height:100px;
+    width:100px;
+    background-color: black;
+}

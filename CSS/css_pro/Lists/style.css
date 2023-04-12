@@ -1,0 +1,4 @@
+ul{
+    list-style-image:url(../image//girl.jpg);
+    list-style: inside;
+}

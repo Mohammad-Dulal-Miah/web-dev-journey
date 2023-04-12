@@ -1,0 +1,17 @@
+h1{
+    color: red;
+    background-color: green;
+}
+
+body{
+    background-color: black;
+    background-image: url(../image/girl.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+p{
+    color: black;
+}

@@ -1,0 +1,13 @@
+h2{
+    color:green;
+}
+
+p{
+    color:red;
+}
+
+div{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(56deg,violet , tomato);
+}
