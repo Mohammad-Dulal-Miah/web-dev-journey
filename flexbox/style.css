@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+}
+
+.container div {
+  padding: 20px;
+}
+
+.container .child1 {
+  background-color: blueviolet;
+  flex: 2;
+}
+
+.container .child2 {
+  background-color: burlywood;
+  flex: 1;
+}
+
+.container .child3 {
+  background-color: antiquewhite;
+  flex: 1;
+}

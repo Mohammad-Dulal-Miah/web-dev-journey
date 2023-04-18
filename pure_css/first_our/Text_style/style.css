@@ -1,0 +1,10 @@
+h2{
+    color: red;
+    background-color: aqua;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    text-indent: 10px;
+    color: tomato;
+}
